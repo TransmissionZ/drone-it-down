@@ -1,0 +1,34 @@
+1) Find a dataset in following hierarchy:
+
+**************
+Database
+    -> Person1
+        -> filename_1.jpg
+        -> filename_2.jpg
+        .
+        .
+        .
+        -> filename_N.jpg
+    ->Person2
+        -> filename_1.jpg
+        .
+        .
+    ->PersonN
+    .
+    .
+
+**************
+
+2) Next, move the database to the 'fyp_1/Databases' folder
+
+3) Now, first step is ALIGNMENT, to do it simply move to 'fyp_1/2_Alignment'
+   and run the script provided there by assigning the path to your DB in 
+   Databases folder, speciffic height and width can also be provided.
+
+   [Note: The script will modify the original provided database by cropping out the largest faces and aligning it]
+
+
+4) Goto, 3,4_Represent-Verify folder now using the path of your aligned DB create a 
+   model file that will be used at runtime for inference of images/video.
+   put your inputs images/video in Inputs folder or use direct streaming.
+   Please specify filenames if opting to save the results for images & videos both.
